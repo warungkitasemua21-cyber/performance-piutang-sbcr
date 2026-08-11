@@ -1,0 +1,16 @@
+{
+  "name": "dashboard-performance-piutang",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check netlify/functions/api.mjs && node --check netlify/functions/health.mjs && node --check netlify/functions/seed-data.mjs && node --check app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest"
+  }
+}
