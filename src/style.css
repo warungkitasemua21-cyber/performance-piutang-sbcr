@@ -1,0 +1,16 @@
+
+body{margin:0;font-family:Arial;background:linear-gradient(135deg,#e8f1ff,#f8fafc)}
+.page{padding:25px;max-width:1500px;margin:auto}
+header{display:flex;align-items:center;background:linear-gradient(90deg,#0b3d70,#198754);color:white;padding:25px;border-radius:20px}
+.logo{font-size:45px;font-weight:bold;margin-right:25px}
+.control{background:white;padding:15px;border-radius:15px;margin:20px 0}
+input,select,button{padding:10px;margin:5px;border-radius:8px}
+.cards{display:flex;gap:15px;flex-wrap:wrap}
+.card,.box{background:white;border-radius:18px;padding:20px;box-shadow:0 8px 20px #ccd}
+.card{min-width:210px}
+.card h2{color:#0b5ed7}
+button{background:#0b5ed7;color:white;border:0}
+table{width:100%;border-collapse:collapse;background:white;font-size:12px}
+th{background:#0b3d70;color:white;padding:10px}
+td{padding:8px;border:1px solid #ddd}
+.table{max-height:500px;overflow:auto;margin-top:20px}

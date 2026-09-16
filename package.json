@@ -1,12 +1,14 @@
 {
-  "name": "dashboard-performance-piutang-sbcr",
-  "version": "2.0.0",
-  "private": true,
-  "type": "module",
   "scripts": {
-    "build": "node build.mjs",
-    "check": "node --check netlify/functions/api.mjs && node --check netlify/functions/health.mjs && node --check netlify/functions/seed-data.mjs && node --check app.js"
+    "dev": "vite",
+    "build": "vite build"
   },
-  "engines": {"node": ">=20"},
-  "dependencies": {"@netlify/blobs": "latest"}
+  "dependencies": {
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "xlsx": "latest",
+    "recharts": "latest",
+    "@netlify/blobs": "latest"
+  }
 }
